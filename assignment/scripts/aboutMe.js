@@ -1,6 +1,6 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = Chris;
+let firstName = 'Chris';
 console.log(firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 
