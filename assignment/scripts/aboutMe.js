@@ -62,7 +62,23 @@ else if (pets >= allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-
+let mostPets = 0;
+if (pets >= friendsPets) {
+  console.log(mostPets = pets);
+}
+else {
+  console.log(mostPets = friendsPets);
+}
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
-
+mostPets = 0;
+switch (mostPets) {
+  case pets >= friendsPets:
+    console.log(mostPets = pets);
+    break;
+  default:
+    console.log(mostPets = friendsPets);
+}
+// I am a little confused about the switch function...cant seem to get it to match my previous conditional
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+adventurous = (true) ? 'Adventures are great!':'How about we stay home?';
+//I am going to need an example to work through to get this
